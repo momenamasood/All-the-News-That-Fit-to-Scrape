@@ -1,0 +1,46 @@
+/*Sticky Footer*/
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+background-image: url('../images/newspaper-texture.jpg'); 
+ /* background-image:url("http://cdn.theeverygirl.com/wp-content/uploads/2017/04/Watercolor-Desktop-small.png");   */
+/* background-repeat: no-repeat; */
+/* background-size: cover; */
+
+}
+
+main {
+  flex: 1 0 auto;
+}
+a.nav-link{
+  font-size:1.5rem;
+}
+.jumbotron{
+  background-image: url("https://img.buzzfeed.com/buzzfeed-static/static/2015-02/11/13/enhanced/webdr07/anigif_enhanced-23422-1423678454-2.gif");
+  width:100%;
+  height:500px;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+h1{
+  font-weight: 1.5rem;
+  color:white;
+ text-align:center;
+}
+p{
+  color: white;
+}
+footer{
+  min-height: 50px;
+  text-align:center;
+
+}
+.jumbotron{
+  background-image: url("http://witanddelight.com/content/uploads/2011/10/FINALWD.gif");
+}
+/* .collapsible-header1{
+  background: linear-gradient(90deg,#f7c626 15%,#f68c2f 40%,#e5127d 85%);
+} */
